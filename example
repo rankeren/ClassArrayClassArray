@@ -1,5 +1,7 @@
 using System;
 
+namespace ConsoleApp2
+{
     class SportClub
     {
         string [] members;
@@ -93,3 +95,4 @@ using System;
 
         }
     }
+}
