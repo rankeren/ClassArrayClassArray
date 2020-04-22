@@ -67,12 +67,16 @@ using System;
     {
         static void Main(string[] args)
         {
-            SportClub sportan;
-            sportan= new SportClub();
+            SportClub sportan;      //    1# -  first pointer to SportClub 
+            sportan= new ();         
             sportan.name = "sportan";
-            SportClub s2;
-            s2 = new SportClub();
+            SportClub s2;           //     2# -  second pointer to SportClub  
+            s2 = new SportClub();     
             s2.name = "pudiim";
+
+                            //  How  to have only one  pointer to  SportClub
+        
+
 
             s2.Register("Shir");
             s2.Register("Maya");
